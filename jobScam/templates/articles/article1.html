@@ -1,0 +1,65 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" href="{% static ''%}">
+{% endblock %}
+{% block title %} What is a Job Scam? {% endblock %}
+
+{% block content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Articles</h2>
+          <ol>
+            <li><a href="{% url 'accounts:home'%}">Home</a></li>
+            <li>What is a Job Scam?</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <h1>What is a Job Scam?</h1>
+        <br>
+        <p class="col-11">When people or organizations try to trick job seekers into thinking they are providing honest employment prospects when, in fact, their motivations are harmful, it is called a job scam. 
+          There are different types of job scams that can happen to many victims.
+        </p>
+        <br>
+
+        <h4>Types of Job Scams</h4>
+        <br>
+        <h5>1. Advance Fee Scams</h5>
+        <p class="col-11">Job searchers are asked to pay a fee up front for a variety of reasons, such as background checks, training materials, or administrative charges, in this kind of fraud. After the fee is collected, the con artist vanishes and the promised service is never completed.</p>
+        <br>
+
+        <h5>2. Fake Job Listings</h5>
+        <p class="col-11">On websites or employment boards online, con artists post phony job listings. These postings could seem legitimate, however they frequently don't correspond to any actual jobs. They might be used to gather applicants' personal data or redirect them in the direction of a shady website.</p>
+        <br>
+
+        <h5>3. Phishing Scams</h5>
+        <p class="col-11">Under the guise of job applications or background checks, scammers may send emails that appear to be from reputable businesses and request personal information, such as Social Security numbers, bank account information, or passwords. The use of this information for financial fraud or identity theft follows.</p>
+        <br>
+
+        <h5>4. Work-from-Home Scams</h5>
+        <p class="col-11">These con games tout the chance to work from home and make money with little effort, but they often need a payment up advance to gain access to job postings, training, or supplies. These employment frequently turn out to be fake or involve illicit activity.</p>
+        <br>
+
+        <h5>5. Overseas Job Scams</h5>
+        <p class="col-11">Scammers may advertise lucrative international employment prospects but ask potential employees to cover the cost of their visas, travel arrangements, and other costs. The scammer vanishes after receiving the money, and the work ceases to exist.</p>
+        <br>
+
+        <h5>6. Fake Interviews</h5>
+        <p class="col-11">Fake job interviews may be conducted by con artists to get personal information or to persuade victims to pay for fictitious background checks or interview-related expenses.</p>
+        <br>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+  {% endblock content %}

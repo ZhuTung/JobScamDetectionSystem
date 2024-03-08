@@ -1,0 +1,82 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" href="{% static ''%}">
+{% endblock %}
+{% block title %} Red Flags of Job Scam {% endblock %}
+
+{% block content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Articles</h2>
+          <ol>
+            <li><a href="{% url 'accounts:home'%}">Home</a></li>
+            <li>What are the red flags of Job Scam?</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <h1>What are the red flags of Job Scam?</h1>
+        <br>
+        <p class="col-11">It takes a combination of awareness, prudence, and well-informed decision-making to avoid falling victim to an employment scam. 
+            The following actions can be taken to safeguard oneself against job scams:
+        </p>
+        <br>
+
+        <br>
+        <h5>1. Vague Job Descriptions</h5>
+        <p class="col-11">Scammers may only give vague information regarding the duties, criteria, and qualifications of the position. Genuine job listings typically give clear and detailed details about the position.</p>
+        <br>
+
+        <h5>2. High Salary for Little Experience</h5>
+        <p class="col-11">A job offer that promises extremely high wages for little to no experience or qualifications should be avoided. The offer can be a hoax if it looks too good to be true.</p>
+        <br>
+
+        <h5>3. Unprofessional Language and Grammar</h5>
+        <p class="col-11">The job posting's poor grammar, misspellings, and difficult sentence constructions may be a sign of unprofessionalism.</p>
+        <br>
+
+        <h5>4. Immediate Job Offers</h5>
+        <p class="col-11">Be wary if you receive a job offer soon after applying without first going through a formal interview procedure. Before making an offer, reputable employers typically perform evaluations and interviews.</p>
+        <br>
+
+        <h5>5. Unsolicited Job Offers</h5>
+        <p class="col-11">Be wary if you get a job offer for a job you didn't apply for, especially if it comes by email or social media messaging. Unexpected job offers could be a hoax.</p>
+        <br>
+
+        <h5>6. Request for Upfront Payment</h5>
+        <p class="col-11">Scammers frequently demand upfront payment for items like administrative costs, equipment, or training. Most trustworthy employers won't ask you to pay anything up front to begin working for them.</p>
+        <br>
+
+        <h5>7. No Clear Contact Information</h5>
+        <p class="col-11">A red flag is the absence of contact information on a job advertisement or business website, such as a phone number, address, or email address.</p>
+        <br>
+
+        <h5>8. Rapid Hiring Process</h5>
+        <p class="col-11">Scammers may put pressure on you to decide quickly by saying that the position is in high demand. Genuine employers are aware that prospects require time to consider offers.</p>
+        <br>
+
+        <h5>9. Non-Professional Email Addresses</h5>
+        <p class="col-11">You should exercise caution if the email address listed in the job advertising does not correspond to the company's domain (for example, if you use Gmail or Yahoo as your email address instead of the company's official domain).</p>
+        <br>
+
+        <h5>10. Too Much Personal Information Requested</h5>
+        <p class="col-11">A warning sign is if the program requests too much personal data, including your Social Security number, financial information, or passwords.</p>
+        <br>
+
+        <b><p>Keep in mind that while one red flag does not always point to a fraud, a collection of several red flags should raise serious questions. Always follow your gut, investigate the firm in-depth, and take your time before accepting any job offer.</p></b>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+  {% endblock content %}
